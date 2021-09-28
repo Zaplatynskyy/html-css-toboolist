@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #f6f8f9;
+}
+
+/* ******proprietà header****** */
+
+header{
+    background-color: white;
+    padding: 10px 20px;
+    height: 80px;
+}
+
+header img{
+    height: 60px;
+}
+
+header h1{
+    display: inline-block;
+    font-size: 40px;
+}

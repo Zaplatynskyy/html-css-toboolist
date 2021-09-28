@@ -61,21 +61,20 @@ main{
     margin: 5px auto;
 }
 
-/* ******sezione  task****** */
+/* ******proprietà sezione  task****** */
 
 section{
     margin-top: 20px;
 }
 
 .textTask{
-    margin: 10px 0;
+    margin: 15px 0;
     font-size: 18px;
 }
 
-.check{
-    display: inline-block;
-    border: 1px solid #64c0a9;
-    color: #64c0a9;
+/* ******proprietà simboli check e cross */
+.symbol{
+    display: inline-block;   
     font-size: 15px;
     padding-left: 2px;
     width: 20px;
@@ -84,11 +83,37 @@ section{
     margin-right: 5px;
 }
 
+.check.symbol{
+    color: #64c0a9;
+    border: 1px solid #64c0a9;
+}
+
+.cross.symbol{
+    color: #ea4237;
+    border: 1px solid #ea4237;
+}
+
+/* ******proprietà button task testo****** */
 .buttonTask{
     border: none;
-    background-color: #47adf1;
     color: white;
     font-size: 12px;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+.editorial.buttonTask{
+    background-color: #47adf1;
+}
+
+.goals.buttonTask{
+    background-color: #9c72e4;
+}
+
+.recruiting.buttonTask{
+    background-color: #64c0a9;
+}
+
+.mobile.buttonTask{
+    background-color: #f29e33;
 }

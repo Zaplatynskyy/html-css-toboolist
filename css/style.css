@@ -8,6 +8,14 @@ body{
     background-color: #f6f8f9;
 }
 
+.container{
+    width: 80%;
+    background-color: white;
+    padding: 15px 50px;
+    margin: auto;
+    border-radius: 5px;
+}
+
 /* ******proprietà header****** */
 
 header{
@@ -23,4 +31,29 @@ header img{
 header h1{
     display: inline-block;
     font-size: 40px;
+}
+
+/* ******proprietà main****** */
+
+main{
+    margin: 40px 0;
+}
+
+/* ******proprietà bottoni****** */
+.button{
+    height: 30px;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button.task{
+    background-color: #47adf1;
+    color: white;
+}
+
+.button.section{
+    background-color: white;
+    border: 1px solid lightgrey;
+    color: lightgray;
 }

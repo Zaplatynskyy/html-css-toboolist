@@ -64,11 +64,11 @@ main{
 /* ******proprietà sezione  task****** */
 
 section{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .textTask{
-    margin: 15px 0;
+    margin: 20px 0;
     font-size: 18px;
 }
 
@@ -116,4 +116,12 @@ section{
 
 .mobile.buttonTask{
     background-color: #f29e33;
+}
+
+.website.buttonTask{
+    background-color: #d863a1;
+}
+
+.sales.buttonTask{
+    background-color: #b0c926;
 }
